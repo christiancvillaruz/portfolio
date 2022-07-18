@@ -14,3 +14,27 @@
     @apply cursor-pointer;
   }
 }
+
+.major-content-div {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  height: 30rem;
+}
+
+.content-div {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  height: 250px;
+}
+
+.content-div:hover {
+  background-image: linear-gradient(
+    to right,
+    #557C55,
+    #A6CF98
+  ) !important;
+}

@@ -3,7 +3,7 @@ import GradPic1 from '../assets/gradpic-1.png'
 
 const About = () => {
   return (
-    <div name="about" className="w-full h-screen bg-home">
+    <div name="about" className="mt-28 py-20 border-2 bg-home">
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8">
           <div className="sm:text-right pb-8 pl-4">

@@ -4,8 +4,8 @@ import { BsFillPersonLinesFill } from 'react-icons/bs'
 
 const Home = () => {
   return (
-    <div name="home" className="w-full h-screen bg-home">
-      { /* Container */ }
+    <div name="home" className="mt-28 py-20 border-2">
+      { /* Introduction */ }
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
         <p className="text-subheadings text-3xl font-caveat">Hi there, my name is</p>
         <h1 className="text-4xl sm:text-7xl uppercase text-headings font-abril">Christian Villaruz</h1>

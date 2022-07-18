@@ -4,7 +4,7 @@ import { SiJavascript, SiPhp, SiCsharp, SiVisualstudio, SiTailwindcss, SiJquery,
 
 const Skills = () => {
   return (
-    <div name="skills" className="mt-28 py-20 border-2 bg-home">
+    <div name="skills" className="mt-28 py-20 bg-home">
       { /* Container */ }
       <div className="max-w-[1000px] mx-auto w-full h-full p-4 flex flex-col justify-center">
         { /* Header */ }

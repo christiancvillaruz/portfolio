@@ -4,7 +4,7 @@ import { BsFillPersonLinesFill } from 'react-icons/bs'
 
 const Home = () => {
   return (
-    <div name="home" className="mt-28 py-20 border-2">
+    <div name="home" className="mt-28 py-20">
       { /* Introduction */ }
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
         <p className="text-subheadings text-3xl font-caveat">Hi there, my name is</p>

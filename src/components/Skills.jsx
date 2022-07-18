@@ -4,13 +4,13 @@ import { SiJavascript, SiPhp, SiCsharp, SiVisualstudio, SiTailwindcss, SiJquery,
 
 const Skills = () => {
   return (
-    <div name="skills" className="mt-28 py-20 bg-home">
+    <div name="skills" className="mt-28 py-20">
       { /* Container */ }
       <div className="max-w-[1000px] mx-auto w-full h-full p-4 flex flex-col justify-center">
         { /* Header */ }
         <div>
           <h1 className="text-5xl uppercase font-bebas inline text-headings border-b-4 border-paragraphs">Technical Skills</h1>
-          <h3 className="text-3xl text-subheadings font-caveat py-4">Here are the technologies I've worked with</h3>
+          <h3 className="text-3xl text-subheadings font-caveat py-4">Here are the technologies I've worked with!</h3>
         </div>
         { /* Technical Skills Grid */ }
         <div className="w-full grid grid-cols-2 sm:grid-cols-6 gap-4 text-center py-8">
@@ -87,6 +87,7 @@ const Skills = () => {
             <p className="text-subheadings my-4">Microsoft SQL Server</p>
           </div>
         </div>
+        { /* Personal Skills Grid */ }
         <div>
           <h1 className="text-5xl uppercase font-bebas inline text-headings border-b-4 border-paragraphs">Personal Skills</h1>
           <ul className="list-inside sm:list-outside list-disc text-paragraphs p-4 mt-4">

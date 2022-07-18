@@ -1,16 +1,16 @@
 import React from 'react'
 import { useState } from 'react'
 import { FaBars, FaTimes, FaGithub, FaFacebook, FaTwitter, FaLinkedin } from 'react-icons/fa'
-import { HiOutlineMail } from 'react-icons/hi'
+/* import { HiOutlineMail } from 'react-icons/hi'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
-import Logo from '../assets/logo.png'
+import Logo from '../assets/logo.png' */
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav)
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-end items-center px-4 bg-home text-gray-300">
+    <div className="fixed w-full h-[80px] flex justify-end items-center px-4 bg-home">
       { /* Navbar Items */ }
       <ul className="hidden md:flex font-medium text-subheadings">
         <li>Home</li>

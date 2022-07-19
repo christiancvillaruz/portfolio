@@ -7,7 +7,7 @@ import SVDPALogo from '../assets/svdpa-logo-lg.jpg'
 
 const About = () => {
   return (
-    <div name="about" className="mt-28 py-20">
+    <div name="about" className="mt-28 pt-20 pb-0">
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8">
           <div className="sm:text-right pb-8 pl-4">
@@ -17,7 +17,7 @@ const About = () => {
         <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
           <div className="sm:text-right text-3xl text-subheadings">
             <div className="sm:float-right">
-              <img class="rounded-md mx-auto w-[18rem]" src={ GradPic1 } alt="graduation-pic" />
+              <img className="rounded-md mx-auto w-[18rem]" src={ GradPic1 } alt="graduation-pic" />
             </div>
           </div>
           <div className="text-paragraphs">
@@ -39,7 +39,7 @@ const About = () => {
 
               <TabPanel>
                 <div className="py-4">
-                  <h2 className="text-center text-4xl text-white font-bebas py-4">Education Timeline</h2>
+                  <h2 className="text-center text-4xl text-white font-bebas py-10">Education Timeline</h2>
                   <div className="flex justify-center items-center p-0">
                     <div className="max-w-7xl mx-auto w-full grid grid-cols-9">
 
@@ -82,7 +82,7 @@ const About = () => {
                         <div className="absolute p-1 rounded-md bg-headings z-1 text-zinc-900 font-bold text-center">2016-2018</div>
                       </div>
                       {/* Container */}
-                      <div className="col-span-4 w-full h-full pr-4 text-sm sm:text-base sm:pr-0">
+                      <div className="col-span-4 w-full h-full pl-4 text-sm sm:text-base sm:pl-0">
                         <div className="w-full h-full bg-gradient-to-r from-[#557C55] to-[#82aa74] rounded-md text-white">
 
                           <div className="flex flex-row-reverse justify-around">
@@ -139,7 +139,89 @@ const About = () => {
                 </div>
               </TabPanel>
               <TabPanel>
-                <h2>Interests</h2>
+                <div className="py-4">
+                  <h2 className="text-center text-4xl text-white font-bebas py-10">Interests</h2>
+
+                  <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8">
+                    <div className="sm:text-left text-3xl text-subheadings">
+                      <div className="sm:text-right">
+                        <p className="font-caveat">Graphic Designing</p>
+                      </div>
+                    </div>
+                    <div className="sm:text-right text-xl text-subheadings">
+                      <div className="sm:text-left">
+                        <p>Vector Art</p>
+                        <p>Layouts</p>
+                        <p>Concept and Logo Designs</p>
+                      </div>
+                    </div>
+                    <div className="sm:text-left text-3xl text-subheadings">
+                      <div className="sm:text-right">
+                        <p className="font-caveat">Writing</p>
+                      </div>
+                    </div>
+                    <div className="sm:text-right text-xl text-subheadings">
+                      <div className="sm:text-left">
+                        <p>Speech Writing</p>
+                        <p>Essay Writing</p>
+                        <p>Diary Entry</p>
+                      </div>
+                    </div>
+                    <div className="sm:text-left text-3xl text-subheadings">
+                      <div className="sm:text-right">
+                        <p className="font-caveat">Reading</p>
+                      </div>
+                    </div>
+                    <div className="sm:text-right text-xl text-subheadings">
+                      <div className="sm:text-left">
+                        <p>Books</p>
+                        <p>News Articles</p>
+                        <p>Journals</p>
+                      </div>
+                    </div>
+                    <div className="sm:text-left text-3xl text-subheadings">
+                      <div className="sm:text-right">
+                        <p className="font-caveat">Music</p>
+                      </div>
+                    </div>
+                    <div className="sm:text-right text-xl text-subheadings">
+                      <div className="sm:text-left">
+                        <p>Pop</p>
+                        <p>Rock</p>
+                        <p>R&amp;B</p>
+                        <p>Hip-hop</p>
+                        <p>Mash-ups</p>
+                        <p>Remixes</p>
+                      </div>
+                    </div>
+                    <div className="sm:text-left text-3xl text-subheadings">
+                      <div className="sm:text-right">
+                        <p className="font-caveat">Sports</p>
+                      </div>
+                    </div>
+                    <div className="sm:text-right text-xl text-subheadings">
+                      <div className="sm:text-left">
+                        <p>Volleyball</p>
+                        <p>Badminton</p>
+                        <p>Table Tennis</p>
+                      </div>
+                    </div>
+                    <div className="sm:text-left text-3xl text-subheadings">
+                      <div className="sm:text-right">
+                        <p className="font-caveat">Games</p>
+                      </div>
+                    </div>
+                    <div className="sm:text-right text-xl text-subheadings">
+                      <div className="sm:text-left">
+                        <p>Online Gaming</p>
+                        <p>MMORPG</p>
+                        <p>Survival Horror</p>
+                        <p>Simulation</p>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
               </TabPanel>
             </Tabs>
           </div>

@@ -23,6 +23,12 @@
   height: 30rem;
 }
 
+@media (max-width: 640px) {
+  .major-content-div {
+    height: 22rem;
+  }
+}
+
 .content-div {
   background-repeat: no-repeat;
   background-size: cover;

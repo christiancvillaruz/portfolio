@@ -14,10 +14,49 @@ const Projects = () => {
           <h3 className="text-3xl text-subheadings font-caveat py-4">Here are some of my major projects!</h3>
         </div>
         <div className="grid grid-cols-1 gap-4 mb-20">
-          <div style={{ backgroundImage: `url(${WorkImg})` }} className="shadow-lg group container rounded-md flex justify-center items-center mx-auto major-content-div">
-          </div>
+          <div style={{ backgroundImage: `url(${WorkImg})` }} className="shadow-lg group container rounded-md flex justify-center items-center mx-auto major-content-div"></div>
           <div>
             <h1 className="text-4xl text-headings font-bebas uppercase sm:text-right">Patients and Appointments Management System with Data Analytics</h1>
+            <div className="text-right text-subheadings">
+              <div className="flex flex-row justify-end items-end mt-1">
+                <FaHtml5 size={25} />
+                <FaCss3Alt size={25} />
+                <IoLogoJavascript size={25} />
+                <FaReact size={25} />
+              </div>
+            </div>
+            <p className="py-4 text-justify indent-10 text-paragraphs">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis neque exercitationem nostrum temporibus perspiciatis eaque, tenetur laudantium eius dolores provident, nisi non, hic doloremque beatae ipsum ullam perferendis et quis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae sunt omnis magnam, quia quae ipsum numquam dolorem aperiam assumenda deleniti libero inventore voluptas sapiente beatae tenetur animi architecto quasi at!</p>
+            <div className="flex flex-row justify-end gap-3">
+              <a href="/">
+                <button className="text-subheadings border-2 px-6 py-3 rounded-md flex items-center hover:font-bold hover:bg-headings hover:border-headings hover:text-zinc-900">View in Github 
+                <SiGithub className="ml-3" />
+              </button>
+              </a>
+            </div>
+          </div>
+          <div style={{ backgroundImage: `url(${WorkImg})` }} className="shadow-lg group container rounded-md flex justify-center items-center mx-auto major-content-div"></div>
+          <div>
+            <h1 className="text-4xl text-headings font-bebas uppercase sm:text-right">Employee Records Management System</h1>
+            <div className="text-right text-subheadings">
+              <div className="flex flex-row justify-end items-end mt-1">
+                <FaHtml5 size={25} />
+                <FaCss3Alt size={25} />
+                <IoLogoJavascript size={25} />
+                <FaReact size={25} />
+              </div>
+            </div>
+            <p className="py-4 text-justify indent-10 text-paragraphs">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis neque exercitationem nostrum temporibus perspiciatis eaque, tenetur laudantium eius dolores provident, nisi non, hic doloremque beatae ipsum ullam perferendis et quis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae sunt omnis magnam, quia quae ipsum numquam dolorem aperiam assumenda deleniti libero inventore voluptas sapiente beatae tenetur animi architecto quasi at!</p>
+            <div className="flex flex-row justify-end gap-3">
+              <a href="/">
+                <button className="text-subheadings border-2 px-6 py-3 rounded-md flex items-center hover:font-bold hover:bg-headings hover:border-headings hover:text-zinc-900">View in Github 
+                <SiGithub className="ml-3" />
+              </button>
+              </a>
+            </div>
+          </div>
+          <div style={{ backgroundImage: `url(${WorkImg})` }} className="shadow-lg group container rounded-md flex justify-center items-center mx-auto major-content-div"></div>
+          <div>
+            <h1 className="text-4xl text-headings font-bebas uppercase sm:text-right">Learning Management System</h1>
             <div className="text-right text-subheadings">
               <div className="flex flex-row justify-end items-end mt-1">
                 <FaHtml5 size={25} />

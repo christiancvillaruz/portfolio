@@ -44,3 +44,13 @@
     #A6CF98
   ) !important;
 }
+
+.react-tabs__tab--selected {
+  background: #557C55 !important;
+  border-color: transparent !important;
+  color: #F2F2F2 !important;
+}
+
+.react-tabs__tab {
+  color: #F2F2F2 !important;
+}

@@ -29,8 +29,8 @@ const Projects = () => {
             <div className="flex flex-row justify-end gap-3">
               <a href="/">
                 <button className="text-subheadings border-2 px-6 py-3 rounded-md flex items-center hover:font-bold hover:bg-headings hover:border-headings hover:text-zinc-900">View in Github 
-                <SiGithub className="ml-3" />
-              </button>
+                  <SiGithub className="ml-3" />
+                </button>
               </a>
             </div>
           </div>
@@ -49,8 +49,8 @@ const Projects = () => {
             <div className="flex flex-row justify-end gap-3">
               <a href="/">
                 <button className="text-subheadings border-2 px-6 py-3 rounded-md flex items-center hover:font-bold hover:bg-headings hover:border-headings hover:text-zinc-900">View in Github 
-                <SiGithub className="ml-3" />
-              </button>
+                  <SiGithub className="ml-3" />
+                </button>
               </a>
             </div>
           </div>
@@ -69,8 +69,8 @@ const Projects = () => {
             <div className="flex flex-row justify-end gap-3">
               <a href="/">
                 <button className="text-subheadings border-2 px-6 py-3 rounded-md flex items-center hover:font-bold hover:bg-headings hover:border-headings hover:text-zinc-900">View in Github 
-                <SiGithub className="ml-3" />
-              </button>
+                  <SiGithub className="ml-3" />
+                </button>
               </a>
             </div>
           </div>

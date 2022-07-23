@@ -88,7 +88,7 @@ const Skills = () => {
           </div>
         </div>
         { /* Personal Skills Grid */ }
-        <div>
+        <div className="w-full py-8">
           <h1 className="text-5xl uppercase font-bebas inline text-headings border-b-4 border-paragraphs">Personal Skills</h1>
           <ul className="list-inside sm:list-outside list-disc text-paragraphs p-4 mt-4">
             <li className="cursor-auto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut, repudiandae ratione distinctio doloribus officiis architecto nulla, laborum corrupti perferendis velit consequatur omnis maxime tempore officia? Eveniet vitae assumenda tempore eum.</li>
@@ -96,6 +96,30 @@ const Skills = () => {
             <li className="cursor-auto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut, repudiandae ratione distinctio doloribus officiis architecto nulla, laborum corrupti perferendis velit consequatur omnis maxime tempore officia? Eveniet vitae assumenda tempore eum.</li>
             <li className="cursor-auto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut, repudiandae ratione distinctio doloribus officiis architecto nulla, laborum corrupti perferendis velit consequatur omnis maxime tempore officia? Eveniet vitae assumenda tempore eum.</li>
           </ul>
+        </div>
+        { /* What I Do */ }
+        <div className="w-full py-8">
+          <h1 className="text-5xl uppercase font-bebas inline text-headings border-b-4 border-paragraphs">What I Do</h1>
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 py-8">
+            <div className="bg-gradient-to-r from-[#557C55] to-[#82aa74] rounded-md text-subheadings p-4">
+              <h3 className="text-center font-bebas text-3xl pb-4">Mobile-First Web Design</h3>
+              <p className="text-justify indent-8">
+                Modern web apps should be able to adapt to any existing devices. Be it a smartphone, tablet, or laptop that comes in various shapes and sizes. As a web developer, I ensure the responsiveness of the user interface while maintaining an excellent user experience.
+              </p>
+            </div>
+            <div className="bg-gradient-to-r from-[#557C55] to-[#82aa74] rounded-md text-subheadings p-4">
+              <h3 className="text-center font-bebas text-3xl pb-4">Front-end and Back-end</h3>
+              <p className="text-justify indent-8">
+                As a web developer, It is my responsibility to work on both front-end (the user interface) and back-end (the server/database) of the project. These two must work efficiently in order to provide the best experience to the client.
+              </p>
+            </div>
+            <div className="bg-gradient-to-r from-[#557C55] to-[#82aa74] rounded-md text-subheadings p-4">
+              <h3 className="text-center font-bebas text-3xl pb-4">Documentation</h3>
+              <p className="text-justify indent-8">
+                One of my responsibilities as a developer is to write a proper documentation of the project. I have experience on creating charts, diagrams, write-ups, and screen mock-ups. It must be presented thoroughly, concisely, and precisely.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>

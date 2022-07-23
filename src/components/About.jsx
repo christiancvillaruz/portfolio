@@ -25,7 +25,7 @@ const About = () => {
               <h3 className="font-caveat">Nice to meet you, where you been?</h3>
             </div>
             <h3 className="mt-4 text-justify indent-10 sm:text-left sm:indent-0">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse pariatur architecto repudiandae! Similique reiciendis rem facilis iste rerum inventore debitis assumenda porro quam eligendi! Dolores recusandae dolorem similique odio eum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, atque nam dolor iure soluta perspiciatis asperiores nostrum aperiam a vel animi commodi obcaecati, ad molestiae fuga, harum distinctio nemo exercitationem.
+              My name is Christian Robert C. Villaruz. My friends and colleagues call me by my nickname, 'Chan'. I'm 22 years-old, currently residing in Quezon City. I am the youngest in my family. A fresh graduate last June 2022 with hopes to land my first job towards becoming a successful web developer. I'm skilled in working under pressure and adapting to new situations and challenges to best enhance the organizational brand, as well as skilled in project coordination and meeting client's expectations.
             </h3>
           </div>
         </div>
@@ -36,7 +36,7 @@ const About = () => {
                 <Tab>Education</Tab>
                 <Tab>Interests</Tab>
               </TabList>
-
+              { /* Education */ }
               <TabPanel>
                 <div className="py-4">
                   <h2 className="text-center text-4xl text-white font-bebas py-10">Education Timeline</h2>
@@ -138,54 +138,55 @@ const About = () => {
                   </div>
                 </div>
               </TabPanel>
+              { /* Interests */ }
               <TabPanel>
                 <div className="py-4">
                   <h2 className="text-center text-4xl text-white font-bebas py-10">Interests</h2>
 
-                  <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8">
+                  <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-4 sm:gap-8">
                     <div className="sm:text-left text-3xl text-subheadings">
-                      <div className="sm:text-right">
+                      <div className="text-center sm:text-right">
                         <p className="font-caveat">Graphic Designing</p>
                       </div>
                     </div>
                     <div className="sm:text-right text-xl text-subheadings">
-                      <div className="sm:text-left">
+                      <div className="text-center sm:text-left">
                         <p>Vector Art</p>
                         <p>Layouts</p>
                         <p>Concept and Logo Designs</p>
                       </div>
                     </div>
                     <div className="sm:text-left text-3xl text-subheadings">
-                      <div className="sm:text-right">
+                      <div className="text-center sm:text-right">
                         <p className="font-caveat">Writing</p>
                       </div>
                     </div>
                     <div className="sm:text-right text-xl text-subheadings">
-                      <div className="sm:text-left">
+                      <div className="text-center sm:text-left">
                         <p>Speech Writing</p>
                         <p>Essay Writing</p>
                         <p>Diary Entry</p>
                       </div>
                     </div>
                     <div className="sm:text-left text-3xl text-subheadings">
-                      <div className="sm:text-right">
+                      <div className="text-center sm:text-right">
                         <p className="font-caveat">Reading</p>
                       </div>
                     </div>
                     <div className="sm:text-right text-xl text-subheadings">
-                      <div className="sm:text-left">
+                      <div className="text-center sm:text-left">
                         <p>Books</p>
                         <p>News Articles</p>
                         <p>Journals</p>
                       </div>
                     </div>
                     <div className="sm:text-left text-3xl text-subheadings">
-                      <div className="sm:text-right">
+                      <div className="text-center sm:text-right">
                         <p className="font-caveat">Music</p>
                       </div>
                     </div>
                     <div className="sm:text-right text-xl text-subheadings">
-                      <div className="sm:text-left">
+                      <div className="text-center sm:text-left">
                         <p>Pop</p>
                         <p>Rock</p>
                         <p>R&amp;B</p>
@@ -195,24 +196,24 @@ const About = () => {
                       </div>
                     </div>
                     <div className="sm:text-left text-3xl text-subheadings">
-                      <div className="sm:text-right">
+                      <div className="text-center sm:text-right">
                         <p className="font-caveat">Sports</p>
                       </div>
                     </div>
                     <div className="sm:text-right text-xl text-subheadings">
-                      <div className="sm:text-left">
+                      <div className="text-center sm:text-left">
                         <p>Volleyball</p>
                         <p>Badminton</p>
                         <p>Table Tennis</p>
                       </div>
                     </div>
                     <div className="sm:text-left text-3xl text-subheadings">
-                      <div className="sm:text-right">
+                      <div className="text-center sm:text-right">
                         <p className="font-caveat">Games</p>
                       </div>
                     </div>
                     <div className="sm:text-right text-xl text-subheadings">
-                      <div className="sm:text-left">
+                      <div className="text-center sm:text-left">
                         <p>Online Gaming</p>
                         <p>MMORPG</p>
                         <p>Survival Horror</p>

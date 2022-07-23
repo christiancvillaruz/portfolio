@@ -90,11 +90,13 @@ const Skills = () => {
         { /* Personal Skills Grid */ }
         <div className="w-full py-8">
           <h1 className="text-5xl uppercase font-bebas inline text-headings border-b-4 border-paragraphs">Personal Skills</h1>
-          <ul className="list-inside sm:list-outside list-disc text-paragraphs p-4 mt-4">
-            <li className="cursor-auto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut, repudiandae ratione distinctio doloribus officiis architecto nulla, laborum corrupti perferendis velit consequatur omnis maxime tempore officia? Eveniet vitae assumenda tempore eum.</li>
-            <li className="cursor-auto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut, repudiandae ratione distinctio doloribus officiis architecto nulla, laborum corrupti perferendis velit consequatur omnis maxime tempore officia? Eveniet vitae assumenda tempore eum.</li>
-            <li className="cursor-auto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut, repudiandae ratione distinctio doloribus officiis architecto nulla, laborum corrupti perferendis velit consequatur omnis maxime tempore officia? Eveniet vitae assumenda tempore eum.</li>
-            <li className="cursor-auto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut, repudiandae ratione distinctio doloribus officiis architecto nulla, laborum corrupti perferendis velit consequatur omnis maxime tempore officia? Eveniet vitae assumenda tempore eum.</li>
+          <ul className="list-inside sm:list-outside list-disc text-paragraphs p-4 mt-4 text-xl">
+            <li className="cursor-auto py-3 sm:py-0">Self-motivated, punctual, fast-learner, creative, and sincere individual.</li>
+            <li className="cursor-auto py-3 sm:py-0">Adaptive, collaborative, assertive, and responsible.</li>
+            <li className="cursor-auto py-3 sm:py-0">Strong analytical and decision-making skills, keen on details and organized.</li>
+            <li className="cursor-auto py-3 sm:py-0">Ability to complete work accurately and in time.</li>
+            <li className="cursor-auto py-3 sm:py-0">Able to work under pressure and independently.</li>
+            <li className="cursor-auto py-3 sm:py-0">Strong interpersonal and communication skills.</li>
           </ul>
         </div>
         { /* What I Do */ }
@@ -110,11 +112,11 @@ const Skills = () => {
             <div className="bg-gradient-to-r from-[#557C55] to-[#82aa74] rounded-md text-subheadings p-4">
               <h3 className="text-center font-bebas text-3xl pb-4">Front-end and Back-end</h3>
               <p className="text-justify indent-8">
-                As a web developer, It is my responsibility to work on both front-end (the user interface) and back-end (the server/database) of the project. These two must work efficiently in order to provide the best experience to the client.
+                As a web developer, it is my responsibility to work on both front-end (the user interface) and back-end (the server/database) of the project. These two must work efficiently in order to provide the best experience to the client.
               </p>
             </div>
             <div className="bg-gradient-to-r from-[#557C55] to-[#82aa74] rounded-md text-subheadings p-4">
-              <h3 className="text-center font-bebas text-3xl pb-4">Documentation</h3>
+              <h3 className="text-center font-bebas text-3xl pb-4">Technical Writing</h3>
               <p className="text-justify indent-8">
                 One of my responsibilities as a developer is to write a proper documentation of the project. I have experience on creating charts, diagrams, write-ups, and screen mock-ups. It must be presented thoroughly, concisely, and precisely.
               </p>

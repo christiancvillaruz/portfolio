@@ -1,16 +1,18 @@
 import React from 'react'
 import { useState } from 'react'
 import { FaBars, FaTimes, FaGithub, FaFacebook, FaTwitter, FaLinkedin } from 'react-icons/fa'
-/* import { HiOutlineMail } from 'react-icons/hi'
-import { BsFillPersonLinesFill } from 'react-icons/bs'
-import Logo from '../assets/logo.png' */
+import PortfolioLogo from '../assets/portfolio-logo.png'
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav)
 
   return (
-    <div className="p-2 mt-0 fixed z-10 top-0 w-full h-[80px] flex justify-end items-center px-4 bg-home">
+    <div className="p-2 mt-0 fixed z-10 top-0 w-full h-[80px] flex justify-between items-center px-4 bg-home">
+      { /* Navbar Logo */ }
+      <div className="flex justify-start items-center">
+        <img src={ PortfolioLogo } alt="portfolio logo" className="w-[60px] h-[60px]" />
+      </div>
       { /* Navbar Items */ }
       <ul className="hidden md:flex font-medium text-subheadings">
         <li>Home</li>

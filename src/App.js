@@ -11,6 +11,11 @@ function App() {
   return (
     <div>
       <Helmet>
+        <meta name="theme-color" content="#2C3333" />
+        <meta
+          name="description"
+          content="Portfolio web site created using create-react-app"
+        />
         <title>PORTFOLIO | CHRISTIAN ROBERT C. VILLARUZ</title>
       </Helmet>
       <Navbar/>

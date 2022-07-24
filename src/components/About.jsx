@@ -1,6 +1,7 @@
 import React from 'react'
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
 import 'react-tabs/style/react-tabs.css';
+import GradPic1 from '../assets/gradpic-1.png'
 import GradPic2 from '../assets/gradpic-2.png'
 import QCULogo from '../assets/qcu-logo-lg.jpg'
 import SVDPALogo from '../assets/svdpa-logo-lg.jpg'
@@ -17,7 +18,10 @@ const About = () => {
         <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
           <div className="sm:text-right text-3xl text-subheadings">
             <div className="sm:float-right">
-              <img className="rounded-md mx-auto w-[18rem]" src={ GradPic2 } alt="graduation-pic-2" />
+              <div className="relative img-fade">
+                <img className="rounded-md mx-auto w-[18rem] absolute btm" src={ GradPic2 } alt="graduation-pic-2" />
+                <img className="rounded-md mx-auto w-[18rem] tp" src={ GradPic1 } alt="graduation-pic-1" />
+              </div>
             </div>
           </div>
           <div className="text-paragraphs">

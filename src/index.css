@@ -15,6 +15,32 @@
   }
 }
 
+@keyframes animFadeInOut {
+  0% {
+    opacity:1;
+  }
+
+  45% {
+    opacity:1;
+  }
+  
+  55% {
+    opacity:0;
+  }
+
+  100% {
+    opacity:0;
+  }
+}
+
+.img-fade img.tp {
+  animation-name: animFadeInOut;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  animation-direction: alternate;
+}
+
 .major-content-div {
   background-repeat: no-repeat;
   background-size: cover;

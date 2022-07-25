@@ -1,6 +1,8 @@
 import React from 'react'
-import { FaHtml5, FaCss3Alt, FaMicrosoft, FaJava, FaGithub, FaReact, FaLaravel, FaBootstrap } from 'react-icons/fa'
+import { FaHtml5, FaCss3Alt, FaMicrosoft, FaJava, FaGithub, FaReact, FaLaravel, FaBootstrap, FaCog } from 'react-icons/fa'
 import { SiJavascript, SiPhp, SiCsharp, SiVisualstudio, SiTailwindcss, SiJquery, SiMysql, SiOracle, SiMicrosoftsqlserver, SiAdobephotoshop } from 'react-icons/si'
+import { IoIosPaper } from 'react-icons/io'
+import { MdMobileFriendly } from 'react-icons/md'
 
 const Skills = () => {
   return (
@@ -104,18 +106,27 @@ const Skills = () => {
           <h1 className="text-5xl uppercase font-bebas inline text-headings border-b-4 border-paragraphs">What I Do</h1>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 py-8">
             <div className="bg-gradient-to-r from-[#557C55] to-[#82aa74] rounded-md text-subheadings p-4">
+              <div className="flex justify-center items-center text-6xl p-4">
+                <MdMobileFriendly className="w-[90px] h-[90px] bg-headings rounded-full p-4" />
+              </div>
               <h3 className="text-center font-bebas text-3xl pb-4">Mobile-First Web Design</h3>
               <p className="text-justify indent-8">
                 Modern web apps should be able to adapt to any existing devices. Be it a smartphone, tablet, or laptop that comes in various shapes and sizes. As a web developer, I ensure the responsiveness of the user interface while maintaining an excellent user experience.
               </p>
             </div>
             <div className="bg-gradient-to-r from-[#557C55] to-[#82aa74] rounded-md text-subheadings p-4">
+              <div className="flex justify-center items-center text-6xl p-4">
+                <FaCog className="w-[90px] h-[90px] bg-headings rounded-full p-4" />
+              </div>
               <h3 className="text-center font-bebas text-3xl pb-4">Front-end and Back-end</h3>
               <p className="text-justify indent-8">
                 As a web developer, it is my responsibility to work on both front-end (the user interface) and back-end (the server/database) of the project. These two must work efficiently in order to provide the best experience to the client.
               </p>
             </div>
             <div className="bg-gradient-to-r from-[#557C55] to-[#82aa74] rounded-md text-subheadings p-4">
+              <div className="flex justify-center items-center text-6xl p-4">
+                <IoIosPaper className="w-[90px] h-[90px] bg-headings rounded-full p-4" />
+              </div>
               <h3 className="text-center font-bebas text-3xl pb-4">Technical Writing</h3>
               <p className="text-justify indent-8">
                 One of my responsibilities as a developer is to write a proper documentation of the project. I have experience on creating charts, diagrams, write-ups, and screen mock-ups. It must be presented thoroughly, concisely, and precisely.

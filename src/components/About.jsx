@@ -19,8 +19,8 @@ const About = () => {
           <div className="sm:text-right text-3xl text-subheadings">
             <div className="sm:float-right">
               <div className="relative img-fade">
-                <img className="rounded-md mx-auto w-[18rem] absolute btm" src={ GradPic2 } alt="graduation-pic-2" />
-                <img className="rounded-md mx-auto w-[18rem] tp" src={ GradPic1 } alt="graduation-pic-1" />
+                <img className="rounded-md mx-auto w-[18rem] sm:absolute btm" src={ GradPic2 } alt="graduation-pic-2" />
+                <img className="hidden sm:block rounded-md mx-auto w-[18rem] tp" src={ GradPic1 } alt="graduation-pic-1" />
               </div>
             </div>
           </div>

@@ -1,4 +1,5 @@
 import { Helmet } from "react-helmet";
+import ScrollUpButton from "react-scroll-up-button";
 import About from "./components/About";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
@@ -25,6 +26,7 @@ function App() {
       <Projects/>
       <Contact/>
       <Footer/>
+      <ScrollUpButton ToggledStyle={{right: 80}}/>
     </div>
   );
 }

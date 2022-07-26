@@ -129,7 +129,7 @@ const Skills = () => {
               </div>
               <h3 className="text-center font-bebas text-3xl pb-4">Technical Writing</h3>
               <p className="text-justify indent-8">
-                One of my responsibilities as a developer is to write a proper documentation of the project. I have experience on creating charts, diagrams, write-ups, and screen mock-ups. It must be presented thoroughly, concisely, and precisely.
+                One of my responsibilities as a developer is to write a proper documentation of the project. I am proficient in both English and Filipino, written and verbal. I have experience on creating charts, diagrams, write-ups, and screen mock-ups. It must be presented thoroughly, concisely, and precisely.
               </p>
             </div>
           </div>

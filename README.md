@@ -1,3 +1,3 @@
-# WELCOME
+# My Portfolio
 
-hi, im christian. welcome to my github page. feel free to explore my repositories. :)
+A simple, yet elegant portfolio showcasing my projects. Made using React JS and Tailwind CSS.

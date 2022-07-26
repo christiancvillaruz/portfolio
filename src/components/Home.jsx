@@ -23,7 +23,7 @@ const Home = () => {
               </span>
             </button>
           </Link>
-          <a href={ CV }>
+          <a href={ CV } target="_blank" rel="noreferrer">
             <button className="text-subheadings border-2 px-6 py-3 rounded-md flex items-center hover:font-bold hover:bg-headings hover:border-headings hover:text-zinc-900">My Resumé 
               <span>
                 <BsFillPersonLinesFill className="ml-3" />

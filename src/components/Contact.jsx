@@ -28,7 +28,7 @@ const Contact = () => {
             <form name="contact" method="POST" action="https://getform.io/f/b9a28c3b-88d3-4f57-9514-b45f5a4d5764">
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                 <div className="col-span-2">
-                  <label for="name" className="block mb-2 font-medium text-subheadings">Your Name</label>
+                  <label htmlFor="name" className="block mb-2 font-medium text-subheadings">Your Name</label>
                   <div className="relative">
                     <div className="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none">
                     <FaUser className="text-home" />
@@ -37,7 +37,7 @@ const Contact = () => {
                   </div>
                 </div>
                 <div>
-                  <label for="email-address" className="block mb-2 font-medium text-subheadings">Your Email</label>
+                  <label htmlFor="email-address" className="block mb-2 font-medium text-subheadings">Your Email</label>
                   <div className="relative">
                     <div className="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none">
                     <MdAlternateEmail className="text-home" />
@@ -46,7 +46,7 @@ const Contact = () => {
                   </div>
                 </div>
                 <div>
-                  <label for="subject" className="block mb-2 font-medium text-subheadings">Subject</label>
+                  <label htmlFor="subject" className="block mb-2 font-medium text-subheadings">Subject</label>
                   <div className="relative">
                     <div className="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none">
                     <GrMail className="text-home" />
@@ -55,7 +55,7 @@ const Contact = () => {
                   </div>
                 </div>
                 <div className="col-span-2">
-                  <label for="message" className="block mb-2 text-sm font-medium text-subheadings">Your message</label>
+                  <label htmlFor="message" className="block mb-2 text-sm font-medium text-subheadings">Your message</label>
                   <textarea style={{ resize: "none" }} name="message" id="message" rows="4" className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300" placeholder="Message me something..." required></textarea>
                 </div>
                 <div className="col-span-2">

@@ -2,6 +2,7 @@ import React from 'react'
 import { useState } from 'react'
 import { FaBars, FaTimes, FaGithub, FaFacebook, FaTwitter, FaLinkedin } from 'react-icons/fa'
 import PortfolioLogo from '../assets/portfolio-logo.png'
+import { Link } from 'react-scroll'
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -11,15 +12,37 @@ const Navbar = () => {
     <div className="p-2 mt-0 fixed z-10 top-0 w-full h-[80px] flex justify-between items-center px-4 bg-home">
       { /* Navbar Logo */ }
       <div className="flex justify-start items-center">
-        <img src={ PortfolioLogo } alt="portfolio logo" className="w-[60px] h-[60px]" />
+        <Link to="home" smooth={true} duration={500}>
+          <img src={ PortfolioLogo } alt="portfolio logo" className="w-[60px] h-[60px]" />
+        </Link>
       </div>
       { /* Navbar Items */ }
       <ul className="hidden md:flex font-medium text-subheadings">
-        <li>Home</li>
-        <li>About</li>
-        <li>Skills</li>
-        <li>Projects</li>
-        <li>Contact</li>
+        <li>
+          <Link to="home" smooth={true} duration={500}>
+            Home
+          </Link>
+        </li>
+        <li>
+          <Link to="about" smooth={true} duration={500}>
+            About
+          </Link>
+        </li>
+        <li>
+          <Link to="skills" smooth={true} duration={500}>
+            Skills
+          </Link>
+        </li>
+        <li>
+          <Link to="projects" smooth={true} duration={500}>
+            Projects
+          </Link>
+        </li>
+        <li>
+          <Link to="contact" smooth={true} duration={500}>
+            Contact
+          </Link>
+        </li>
       </ul>
       { /* Hamburger Menu */ }
       <div className="md:hidden z-10 text-subheadings" onClick={ handleClick }>
@@ -28,11 +51,31 @@ const Navbar = () => {
       { /* Responsive Menu (Mobile) */ }
       <div className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-home text-subheadings flex flex-col justify-center items-center text-center'}>
         <ul>
-          <li className="py-2 text-lg">Home</li>
-          <li className="py-2 text-lg">About</li>
-          <li className="py-2 text-lg">Skills</li>
-          <li className="py-2 text-lg">Projects</li>
-          <li className="py-2 text-lg">Contact</li>
+          <li onClick={ handleClick } className="py-2 text-lg">
+            <Link to="home" smooth={true} duration={500}>
+              Home
+            </Link>
+          </li>
+          <li onClick={ handleClick } className="py-2 text-lg">
+            <Link to="about" smooth={true} duration={500}>
+              About
+            </Link>
+          </li>
+          <li onClick={ handleClick } className="py-2 text-lg">
+            <Link to="skills" smooth={true} duration={500}>
+              Skills
+            </Link>
+          </li>
+          <li onClick={ handleClick } className="py-2 text-lg">
+            <Link to="projects" smooth={true} duration={500}>
+              Projects
+            </Link>
+          </li>
+          <li onClick={ handleClick } className="py-2 text-lg">
+            <Link to="contact" smooth={true} duration={500}>
+              Contact
+            </Link>
+          </li>
         </ul>
       </div>
       { /* Social Media */ }

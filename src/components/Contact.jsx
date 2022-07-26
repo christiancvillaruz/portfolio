@@ -25,7 +25,7 @@ const Contact = () => {
             </div>
           </div>
           <div>
-            <form action="POST" data-netlify="true">
+            <form method="POST" data-netlify="true">
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                 <div className="col-span-2">
                   <label for="name" className="block mb-2 font-medium text-subheadings">Your Name</label>
@@ -33,7 +33,7 @@ const Contact = () => {
                     <div className="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none">
                     <FaUser className="text-home" />
                     </div>
-                    <input type="email" id="name" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block w-full pl-10 p-2.5" placeholder="Juan R. Dela Cruz" required />
+                    <input type="text" id="name" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block w-full pl-10 p-2.5" placeholder="Juan R. Dela Cruz" required />
                   </div>
                 </div>
                 <div>

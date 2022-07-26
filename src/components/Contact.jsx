@@ -33,7 +33,7 @@ const Contact = () => {
                     <div className="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none">
                     <FaUser className="text-home" />
                     </div>
-                    <input type="email" id="name" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block w-full pl-10 p-2.5" placeholder="Juan R. Dela Cruz" />
+                    <input type="email" id="name" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block w-full pl-10 p-2.5" placeholder="Juan R. Dela Cruz" required />
                   </div>
                 </div>
                 <div>
@@ -42,7 +42,7 @@ const Contact = () => {
                     <div className="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none">
                     <MdAlternateEmail className="text-home" />
                     </div>
-                    <input type="email" id="email-address" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block w-full pl-10 p-2.5" placeholder="juandelacruz@domain.com" />
+                    <input type="email" id="email-address" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block w-full pl-10 p-2.5" placeholder="juandelacruz@domain.com" required />
                   </div>
                 </div>
                 <div>
@@ -51,15 +51,17 @@ const Contact = () => {
                     <div className="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none">
                     <GrMail className="text-home" />
                     </div>
-                    <input type="text" id="subject" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block w-full pl-10 p-2.5" placeholder="Hello, Christian!" />
+                    <input type="text" id="subject" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block w-full pl-10 p-2.5" placeholder="Hello, Christian!" required />
                   </div>
                 </div>
                 <div className="col-span-2">
-                  <label for="message" class="block mb-2 text-sm font-medium text-subheadings">Your message</label>
-                  <textarea style={{ resize: "none" }} id="message" rows="4" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300" placeholder="Message me something..."></textarea>
+                  <label for="message" className="block mb-2 text-sm font-medium text-subheadings">Your message</label>
+                  <textarea style={{ resize: "none" }} id="message" rows="4" className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300" placeholder="Message me something..." required></textarea>
                 </div>
                 <div className="col-span-2">
-                  <div data-netlify-recaptcha="true"></div>
+                  <div className="flex justify-end items-end">
+                    <div data-netlify-recaptcha="true" className="p-2.5 w-full"></div>
+                  </div>
                 </div>
                 <div className="col-span-2">
                   <div className="flex justify-end items-end">

@@ -15,7 +15,7 @@ const ProjectsArts = () => {
               <SiAdobephotoshop size={25} />
             </div>
           </div>
-          <p className="py-4 text-justify indent-10 text-paragraphs">These are some of my vector and graphic arts. As you can see, it's mostly an illustration of my favorite artists as they inspire me with their music. Made using Adobe Photoshop CS6.</p>
+          <p className="py-4 text-justify indent-10 text-paragraphs">These are some of my vector and graphic arts. As you can see, it's mostly an illustration of my favorite artists as they constantly inspire me with their music. Made using Adobe Photoshop CS6.</p>
         </div>
         <div style={{ backgroundImage: `url(${SketchUpArts})` }} className="shadow-lg group container rounded-md flex justify-center items-center mx-auto major-content-div"></div>
         <div>

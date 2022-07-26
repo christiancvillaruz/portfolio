@@ -26,7 +26,7 @@ function App() {
       <Projects/>
       <Contact/>
       <Footer/>
-      <ScrollUpButton ToggledStyle={{right: 80}}/>
+      <ScrollUpButton ToggledStyle={{right: 50}}/>
     </div>
   );
 }

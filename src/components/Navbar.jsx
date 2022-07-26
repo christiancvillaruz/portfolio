@@ -51,28 +51,28 @@ const Navbar = () => {
       { /* Responsive Menu (Mobile) */ }
       <div className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-home text-subheadings flex flex-col justify-center items-center text-center'}>
         <ul>
-          <li onClick={ handleClick } className="py-2 text-lg">
-            <Link to="home" smooth={true} duration={500}>
+          <li className="py-2 text-lg">
+            <Link to="home" smooth={true} duration={500} onClick={ handleClick }>
               Home
             </Link>
           </li>
-          <li onClick={ handleClick } className="py-2 text-lg">
-            <Link to="about" smooth={true} duration={500}>
+          <li className="py-2 text-lg">
+            <Link to="about" smooth={true} duration={500} onClick={ handleClick }>
               About
             </Link>
           </li>
-          <li onClick={ handleClick } className="py-2 text-lg">
-            <Link to="skills" smooth={true} duration={500}>
+          <li className="py-2 text-lg">
+            <Link to="skills" smooth={true} duration={500} onClick={ handleClick }>
               Skills
             </Link>
           </li>
-          <li onClick={ handleClick } className="py-2 text-lg">
-            <Link to="projects" smooth={true} duration={500}>
+          <li className="py-2 text-lg">
+            <Link to="projects" smooth={true} duration={500} onClick={ handleClick }>
               Projects
             </Link>
           </li>
-          <li onClick={ handleClick } className="py-2 text-lg">
-            <Link to="contact" smooth={true} duration={500}>
+          <li className="py-2 text-lg">
+            <Link to="contact" smooth={true} duration={500} onClick={ handleClick }>
               Contact
             </Link>
           </li>

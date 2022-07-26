@@ -42,15 +42,45 @@ const About = () => {
               </TabList>
               { /* Education */ }
               <TabPanel>
-                <div className="py-4">
-                  <h2 className="text-center text-4xl text-white font-bebas py-10">Education Timeline</h2>
+                { /* For Small Screens */ }
+                <div className="py-4 sm:hidden">
+                  <h2 className="text-center text-4xl text-subheadings font-bebas py-10">Education</h2>
+                  <div className="text-subheadings pb-12">
+                    <h1 className="font-caveat text-4xl pb-1">College</h1>
+                    <h3>Bachelor of Science in Information Technology</h3>
+                    <p>2018-2022</p>
+                    <h1 className="text-3xl font-bebas mt-3">Quezon City University</h1>
+                    <p>Quezon City, Metro Manila</p>
+                    <p className="italic mt-3">Magna Cum Laude Awardee</p>
+                    <p>GWA: 1.42</p>
+                  </div>
+                  <div className="text-subheadings pb-12">
+                    <h1 className="font-caveat text-4xl pb-1">Senior High</h1>
+                    <h3>Science, Technology, Engineering, and Mathematics (STEM) Strand</h3>
+                    <p>2016-2018</p>
+                    <h1 className="text-3xl font-bebas mt-3">St. Vincent de Paul Academy of Novaliches, Inc.</h1>
+                    <p>Quezon City, Metro Manila</p>
+                    <p className="italic mt-3">Class Salutatorian Awardee</p>
+                    <p className="italic mt-3">Loyalty Awardee</p>
+                  </div>
+                  <div className="text-subheadings pb-12">
+                    <h1 className="font-caveat text-4xl pb-1">High School</h1>
+                    <p>2012-2016</p>
+                    <h1 className="text-3xl font-bebas mt-3">St. Vincent de Paul Academy of Novaliches, Inc.</h1>
+                    <p>Quezon City, Metro Manila</p>
+                    <p className="italic mt-3">Consistent Honor Student</p>
+                  </div>
+                </div>
+                { /* For Larger Screens */ }
+                <div className="py-4 hidden sm:block">
+                  <h2 className="text-center text-4xl text-subheadings font-bebas py-10">Education Timeline</h2>
                   <div className="flex justify-center items-center p-0">
                     <div className="max-w-7xl mx-auto w-full grid grid-cols-9">
 
                       {/* First */}
                       {/* Container */}
                       <div className="col-span-4 w-full h-full pr-4 text-sm sm:text-base sm:pr-0">
-                        <div className="w-full h-full bg-gradient-to-r from-[#557C55] to-[#82aa74] rounded-md text-white">
+                        <div className="w-full h-full bg-gradient-to-r from-[#557C55] to-[#82aa74] rounded-md text-subheadings">
 
                           <div className="flex flex-row justify-around">
                             <div className="hidden sm:grid overflow-hidden">
@@ -58,8 +88,8 @@ const About = () => {
                             </div>
 
                             <div className="p-4">
-                              <h1 className="text-white text-right font-caveat text-4xl pb-1">College</h1>
-                              <div className="text-white text-right">
+                              <h1 className="text-subheadings text-right font-caveat text-4xl pb-1">College</h1>
+                              <div className="text-subheadings text-right">
                                 <h3>Bachelor of Science in Information Technology</h3>
                                 <h1 className="text-3xl font-bebas mt-3">Quezon City University</h1>
                                 <p>Quezon City, Metro Manila</p>
@@ -87,7 +117,7 @@ const About = () => {
                       </div>
                       {/* Container */}
                       <div className="col-span-4 w-full h-full pl-4 text-sm sm:text-base sm:pl-0">
-                        <div className="w-full h-full bg-gradient-to-r from-[#557C55] to-[#82aa74] rounded-md text-white">
+                        <div className="w-full h-full bg-gradient-to-r from-[#557C55] to-[#82aa74] rounded-md text-subheadings">
 
                           <div className="flex flex-row-reverse justify-around">
                             <div className="hidden sm:grid overflow-hidden">
@@ -95,8 +125,8 @@ const About = () => {
                             </div>
 
                             <div className="p-4">
-                              <h1 className="text-white text-left font-caveat text-4xl pb-1">Senior High</h1>
-                              <div className="text-white text-left">
+                              <h1 className="text-subheadings text-left font-caveat text-4xl pb-1">Senior High</h1>
+                              <div className="text-subheadings text-left">
                                 <h3>Science, Technology, Engineering, and Mathematics</h3>
                                 <h1 className="text-2xl font-bebas mt-3">St. Vincent de Paul Academy of Novaliches, Inc.</h1>
                                 <p>Quezon City, Metro Manila</p>
@@ -112,7 +142,7 @@ const About = () => {
                       {/* Third */}
                       {/* Container */}
                       <div className="col-span-4 w-full h-full pr-4 text-sm sm:text-base sm:pr-0">
-                        <div className="w-full h-full bg-gradient-to-r from-[#557C55] to-[#82aa74] rounded-md text-white">
+                        <div className="w-full h-full bg-gradient-to-r from-[#557C55] to-[#82aa74] rounded-md text-subheadings">
 
                           <div className="flex flex-row justify-around">
                             <div className="hidden sm:grid overflow-hidden">
@@ -120,8 +150,8 @@ const About = () => {
                             </div>
 
                             <div className="p-4">
-                              <h1 className="text-white text-right font-caveat text-4xl pb-1">High School</h1>
-                              <div className="text-white text-right">
+                              <h1 className="text-subheadings text-right font-caveat text-4xl pb-1">High School</h1>
+                              <div className="text-subheadings text-right">
                                 <h1 className="text-2xl font-bebas">St. Vincent de Paul Academy of Novaliches, Inc.</h1>
                                 <p>Quezon City, Metro Manila</p>
                                 <p className="italic mt-3">Consistent Honor Student</p>
@@ -145,7 +175,7 @@ const About = () => {
               { /* Interests */ }
               <TabPanel>
                 <div className="py-4">
-                  <h2 className="text-center text-4xl text-white font-bebas py-10">Interests</h2>
+                  <h2 className="text-center text-4xl text-subheadings font-bebas py-10">Interests</h2>
 
                   <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-4 sm:gap-8">
                     <div className="sm:text-left text-3xl text-subheadings">

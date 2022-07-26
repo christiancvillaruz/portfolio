@@ -1,15 +1,15 @@
 import React from 'react'
-import { FaHeart, FaGithub, FaTwitter, FaFacebook, FaLinkedin } from 'react-icons/fa'
+import { FaGithub, FaTwitter, FaFacebook, FaLinkedin } from 'react-icons/fa'
 
 const Footer = () => {
   return (
     <div name="footer" className="mt-28 py-20">
       <hr />
        <footer className="text-center text-subheadings pt-12">
-        <h1 className="flex flex-row justify-center items-center gap-1">
-          Made with <FaHeart/> by Christian Villaruz.
-          Copyright &copy; 2022.
-        </h1>
+        <div className="flex flex-col justify-center items-center gap-1">
+          <h3>Made with ♥ by Christian Villaruz.</h3>
+          <h4>Copyright &copy; 2022.</h4>
+        </div>
         <ul className="flex flex-row justify-center items-center p-4 text-3xl">
           <li><a href="https://github.com/christiancvillaruz" target="_blank" rel="noreferrer"><FaGithub/></a></li>
           <li><a href="https://twitter.com/robertssson13" target="_blank" rel="noreferrer"><FaTwitter/></a></li>

@@ -25,7 +25,7 @@ const Contact = () => {
             </div>
           </div>
           <div>
-            <form action="POST" data-netlify="true">
+            <form name="contact" method="POST" data-netlify="true">
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                 <div className="col-span-2">
                   <label for="name" className="block mb-2 font-medium text-subheadings">Your Name</label>
@@ -33,7 +33,7 @@ const Contact = () => {
                     <div className="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none">
                     <FaUser className="text-home" />
                     </div>
-                    <input type="text" id="name" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block w-full pl-10 p-2.5" placeholder="Juan R. Dela Cruz" required />
+                    <input type="text" name="Name" id="name" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block w-full pl-10 p-2.5" placeholder="Juan R. Dela Cruz" required />
                   </div>
                 </div>
                 <div>
@@ -42,7 +42,7 @@ const Contact = () => {
                     <div className="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none">
                     <MdAlternateEmail className="text-home" />
                     </div>
-                    <input type="email" id="email-address" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block w-full pl-10 p-2.5" placeholder="juandelacruz@domain.com" required />
+                    <input type="email" name="email_address" id="email-address" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block w-full pl-10 p-2.5" placeholder="juandelacruz@domain.com" required />
                   </div>
                 </div>
                 <div>
@@ -51,12 +51,12 @@ const Contact = () => {
                     <div className="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none">
                     <GrMail className="text-home" />
                     </div>
-                    <input type="text" id="subject" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block w-full pl-10 p-2.5" placeholder="Hello, Christian!" required />
+                    <input type="text" name="subject" id="subject" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block w-full pl-10 p-2.5" placeholder="Hello, Christian!" required />
                   </div>
                 </div>
                 <div className="col-span-2">
                   <label for="message" className="block mb-2 text-sm font-medium text-subheadings">Your message</label>
-                  <textarea style={{ resize: "none" }} id="message" rows="4" className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300" placeholder="Message me something..." required></textarea>
+                  <textarea style={{ resize: "none" }} name="message" id="message" rows="4" className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300" placeholder="Message me something..." required></textarea>
                 </div>
                 <div className="col-span-2">
                   <div className="flex justify-end items-end">

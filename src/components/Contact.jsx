@@ -25,7 +25,7 @@ const Contact = () => {
             </div>
           </div>
           <div>
-            <form action="">
+            <form action="POST" data-netlify="true">
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                 <div className="col-span-2">
                   <label for="name" className="block mb-2 font-medium text-subheadings">Your Name</label>
@@ -57,6 +57,9 @@ const Contact = () => {
                 <div className="col-span-2">
                   <label for="message" class="block mb-2 text-sm font-medium text-subheadings">Your message</label>
                   <textarea style={{ resize: "none" }} id="message" rows="4" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300" placeholder="Message me something..."></textarea>
+                </div>
+                <div className="col-span-2">
+                  <div data-netlify-recaptcha="true"></div>
                 </div>
                 <div className="col-span-2">
                   <div className="flex justify-end items-end">

@@ -1,6 +1,8 @@
 import React from 'react'
 import { HiArrowNarrowRight } from  'react-icons/hi'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
+import { Link } from 'react-scroll'
+import CV from '../assets/CHRISTIAN_ROBERT C. VILLARUZ_Resume.pdf'
 
 const Home = () => {
   return (
@@ -13,16 +15,21 @@ const Home = () => {
         <p className="text-paragraphs py-4 max-w-[700px]">I'm an ambitious, driven, and passionate person. Graduated Magna Cum Laude from Quezon City University with a degree in Bachelor of Science in Information Technology and currently pursuing real-world experience to develop acquired skills.</p>
         { /* Buttons */ }
         <div className="flex flex-row gap-3">
-          <button className="text-subheadings group border-2 px-6 py-3 rounded-md flex items-center hover:font-bold hover:bg-headings hover:border-headings hover:text-zinc-900">My Projects 
-            <span className="group-hover:rotate-90 duration-300">
-              <HiArrowNarrowRight className="ml-3" />
-            </span>
-          </button>
-          <button className="text-subheadings border-2 px-6 py-3 rounded-md flex items-center hover:font-bold hover:bg-headings hover:border-headings hover:text-zinc-900">My Resumé 
-            <span>
-              <BsFillPersonLinesFill className="ml-3" />
-            </span>
-          </button>
+          <Link to="projects" smooth={true} duration={500}>
+            <button className="text-subheadings group border-2 px-6 py-3 rounded-md flex items-center hover:font-bold hover:bg-headings hover:border-headings hover:text-zinc-900">
+              My Projects
+              <span className="group-hover:rotate-90 duration-300">
+                <HiArrowNarrowRight className="ml-3" />
+              </span>
+            </button>
+          </Link>
+          <a href={ CV }>
+            <button className="text-subheadings border-2 px-6 py-3 rounded-md flex items-center hover:font-bold hover:bg-headings hover:border-headings hover:text-zinc-900">My Resumé 
+              <span>
+                <BsFillPersonLinesFill className="ml-3" />
+              </span>
+            </button>
+          </a>
         </div>
       </div>
     </div>

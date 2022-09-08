@@ -17,7 +17,7 @@ const ProjectsOther = () => {
     <div>
       <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
         <div style={{ backgroundImage: `url(${LyricsGenerator})` }} className="shadow-lg group container rounded-md flex justify-center items-center mx-auto content-div">
-          { /* Cards */ }
+          { /* Cards */}
           <div className="opacity-0 group-hover:opacity-100">
             <span className="text-2xl text-subheadings font-bebas">
               Random Lyrics Generator
@@ -42,7 +42,7 @@ const ProjectsOther = () => {
           </div>
         </div>
         <div style={{ backgroundImage: `url(${UrlShortener})` }} className="shadow-lg group container rounded-md flex justify-center items-center mx-auto content-div">
-          { /* Cards */ }
+          { /* Cards */}
           <div className="opacity-0 group-hover:opacity-100">
             <span className="text-2xl text-subheadings font-bebas">
               URL Shortener
@@ -68,7 +68,7 @@ const ProjectsOther = () => {
           </div>
         </div>
         <div style={{ backgroundImage: `url(${VennDiagram})` }} className="shadow-lg group container rounded-md flex justify-center items-center mx-auto content-div">
-          { /* Cards */ }
+          { /* Cards */}
           <div className="opacity-0 group-hover:opacity-100">
             <span className="text-2xl text-subheadings font-bebas">
               Venn Diagram
@@ -94,7 +94,7 @@ const ProjectsOther = () => {
           </div>
         </div>
         <div style={{ backgroundImage: `url(${BmiCalculator})` }} className="shadow-lg group container rounded-md flex justify-center items-center mx-auto content-div">
-          { /* Cards */ }
+          { /* Cards */}
           <div className="opacity-0 group-hover:opacity-100">
             <span className="text-2xl text-subheadings font-bebas">
               BMI Calculator
@@ -120,7 +120,7 @@ const ProjectsOther = () => {
           </div>
         </div>
         <div style={{ backgroundImage: `url(${Calculator})` }} className="shadow-lg group container rounded-md flex justify-center items-center mx-auto content-div">
-          { /* Cards */ }
+          { /* Cards */}
           <div className="opacity-0 group-hover:opacity-100">
             <span className="text-2xl text-subheadings font-bebas">
               Calculator
@@ -146,7 +146,7 @@ const ProjectsOther = () => {
           </div>
         </div>
         <div style={{ backgroundImage: `url(${MyPortfolio})` }} className="shadow-lg group container rounded-md flex justify-center items-center mx-auto content-div">
-          { /* Cards */ }
+          { /* Cards */}
           <div className="opacity-0 group-hover:opacity-100">
             <span className="text-2xl text-subheadings font-bebas">
               My Portfolio
@@ -169,7 +169,7 @@ const ProjectsOther = () => {
           </div>
         </div>
         <div style={{ backgroundImage: `url(${TwitterMobileFeed})` }} className="shadow-lg group container rounded-md flex justify-center items-center mx-auto content-div">
-          { /* Cards */ }
+          { /* Cards */}
           <div className="opacity-0 group-hover:opacity-100">
             <span className="text-2xl text-subheadings font-bebas">
               Twitter Mobile Feed
@@ -194,7 +194,7 @@ const ProjectsOther = () => {
           </div>
         </div>
         <div style={{ backgroundImage: `url(${InstagramMobileFeed})` }} className="shadow-lg group container rounded-md flex justify-center items-center mx-auto content-div">
-          { /* Cards */ }
+          { /* Cards */}
           <div className="opacity-0 group-hover:opacity-100">
             <span className="text-2xl text-subheadings font-bebas">
               Instagram Mobile Feed
@@ -218,15 +218,12 @@ const ProjectsOther = () => {
           </div>
         </div>
         <div style={{ backgroundImage: `url(${LaravelCrud})` }} className="shadow-lg group container rounded-md flex justify-center items-center mx-auto content-div">
-          { /* Cards */ }
+          { /* Cards */}
           <div className="opacity-0 group-hover:opacity-100">
             <span className="text-2xl text-subheadings font-bebas">
               Laravel CRUD
             </span>
             <div className="pt-8 text-center">
-              <a href="https://laravel-livewire-crud.herokuapp.com" target="_blank" rel="noreferrer">
-                <button className="text-center rounded-md px-4 py-3 m-2 bg-headings text-zinc-900 font-bold text-lg"><FaSearch size={20} /></button>
-              </a>
               <a href="https://github.com/christiancvillaruz/laravel-crud-app" target="_blank" rel="noreferrer">
                 <button className="text-center rounded-md px-4 py-3 m-2 bg-headings text-zinc-900 font-bold text-lg"><FaGithub size={20} /></button>
               </a>
